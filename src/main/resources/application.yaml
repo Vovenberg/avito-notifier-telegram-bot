@@ -1,6 +1,5 @@
 telegram:
-  base-endpoint: https://api.telegram.org/bot
-  token: sdf
+  token: 918284930:AAEwJoz1DvAwpa9vF2lHi5zhAafBtM0zKsw
   commands:
     start: /start
     echo: /echo

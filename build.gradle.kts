@@ -21,9 +21,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.0")
-	implementation( "com.squareup.retrofit2:retrofit:2.7.1")
-	implementation( "com.squareup.retrofit2:converter-jackson:2.7.1")
-
+	implementation( "org.telegram:telegrambots:4.5")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
